@@ -1,0 +1,13 @@
+git clone https://github.com/The0therChad/541_lab3.git
+cd 541_lab3
+git checkout -b Markdown
+git status
+git add .
+git commit -m "Added questions 1 and 2"
+git push -u origin Markdown
+
+git checkout main
+git merge Markdown
+git push
+git branch -d Markdown
+git log --oneline
