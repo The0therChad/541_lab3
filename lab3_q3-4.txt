@@ -11,3 +11,6 @@ git merge Markdown
 git push
 git branch -d Markdown
 git log --oneline
+git add .
+git commit -m "Lab 3 completed"
+git push
